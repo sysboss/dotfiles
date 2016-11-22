@@ -4,7 +4,7 @@ alias ping?='ping 8.8.8.8'
 
 # from xsawyerx
 alias vi='vim'
-alias ll='ls -l --color=always'
+alias ll='ls -al --color=always'
 alias sshr='ssh -l root'
 alias scpresume='rsync --partial --progress -ae ssh'
 alias hosts='sudo vi /etc/hosts'

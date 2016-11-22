@@ -87,9 +87,8 @@ EDITOR='vim'
 . ~/.git_term
 . ~/.aliases
 
-if [[ ! -f /tmp/first_run ]]; then
-    keychain ~/.ssh/id_rsa ~/.ssh/id_dsa
+if [[ ! -e /tmp/first_run ]]; then
+    keychain ~/.ssh/id_rsa
     . ~/.keychain/*-sh
-else
     touch /tmp/first_run
 fi
